@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <style media="screen">
-      /* .container {
-        display: flex;
-        flex-wrap: wrap;
-      }
-      #match-info {
-        border: 1px solid #000;
-        border-radius: 0.2em;
-        width: 20%;
-        padding: 1%;
-        margin: 5px;
-      } */
-    </style>
+    <style media="screen"></style>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
@@ -30,6 +18,30 @@
   <header>
     <img src="https://i.pinimg.com/736x/28/d0/84/28d0845c88d5605f13cd2cf4a4f89270.jpg" alt="logo">
     <h1>English Premier League Pick-em'</h1>
+    <!-- <button type="button" class="modal-btn">Modal</button> -->
+    <div class="modal-bg">
+     <div class="modal">
+      <h2></h2>
+      <label for="name">Name: </label>
+      <input type="text">
+      <label for="email">Email: </label>
+      <input type="email" name="email">
+      <button>Subscribe for more Match Info</button>
+      <span class="modal-close">X</span>
+     </div>
+    </div>
   <body>
-    <div class="container"></div>
+    <div class="container">
+        <div id="match">
+        <h3 id="home">Home</h3>
+        <h3 id="away">Away</h3>
+         <h3>Match Day</h3>
+        <h4>Winning Odds:</h4>
+        <p>Home, Away, Draw
+          <p>odds</p>
+        <h4>Place Your Bet:</h4>
+        <button class="button" id="homebtn">Home Team</button>
+        <button class="button" id="awaybtn">Away Team</button>
+    </div>
+    </div>
 </html>
