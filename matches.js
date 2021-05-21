@@ -18,9 +18,6 @@ $(() => {
           <div id="away-crest">
           <h3 id="away">Away: ${match.awayTeam.name}</h3>
           <h3>Match Day: ${match.matchday}</h3>
-          <h4>Winning Odds:</h4>
-          <p>Home: ${match.odds.homeWin}, Away: ${match.odds.awayWin}, Draw: ${match.odds.draw}</p>
-          <h4>Place Your Bet:</h4>
           <button class="active" class="button" id="home">Home Team</button>
           <button class="active" class="button" id="away">Away Team</button>
           </div>
