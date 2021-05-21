@@ -13,7 +13,7 @@ $(() => {
         matches.forEach((match, i) => {
          $(`
           <div id="match-info">
-          <div id="home=crest">
+          <div id="home-crest">
           <h3 id="home">Home: ${match.homeTeam.name}</h3>
           <div id="away-crest">
           <h3 id="away">Away: ${match.awayTeam.name}</h3>
@@ -27,7 +27,7 @@ $(() => {
          `).appendTo(container);
       })
     }),
-          $('.button').click(() => {
+          $('.button').click((e) => {
            $(this).toggleClass('active');
 
   });
