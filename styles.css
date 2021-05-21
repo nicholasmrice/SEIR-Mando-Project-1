@@ -55,7 +55,7 @@ body {
 }
 
 .button:hover {
-  background-color: maroon
+  background-color: maroon;
   color: skyblue;
 }
 
