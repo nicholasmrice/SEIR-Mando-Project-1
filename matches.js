@@ -24,7 +24,7 @@ $(() => {
          `).appendTo(container);
       })
     }),
-          $('.button').click((e) => {
+          $('.button').onClick((e) => {
            $(this).toggleClass('active');
 
   });
