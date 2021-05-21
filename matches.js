@@ -20,7 +20,6 @@ $(() => {
           <h3>Match Day: ${match.matchday}</h3>
           <button class="active" class="button" id="home">Home Team</button>
           <button class="active" class="button" id="away">Away Team</button>
-          </div>
          `).appendTo(container);
       })
     }),
